@@ -1,0 +1,35 @@
+{
+    "name": "overlord/translatable",
+    "description": "...",
+    "keywords": [
+        "translation",
+        "laravel",
+        "translatable"
+    ],
+    "homepage": "https://github.com/AndrewOverlord",
+    "license": "MIT",
+    "authors" : [
+        {
+            "name": "Andrew Overlord",
+            "email": "andrewdevelop@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require" : {
+        "php": "^5.3",
+        "illuminate/support": "5.1.* || 5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Components\\Translatable\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
+        }
+    }
+
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
