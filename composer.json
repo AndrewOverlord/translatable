@@ -1,5 +1,6 @@
 {
     "name": "overlord/translatable",
+    "version": "dev-master",
     "description": "...",
     "keywords": [
         "translation",
