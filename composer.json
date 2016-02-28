@@ -1,6 +1,6 @@
 {
     "name": "overlord/translatable",
-    "version": "dev-master",
+    "version": "1.0.0",
     "description": "...",
     "keywords": [
         "translation",
@@ -27,8 +27,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.0-dev"
+            "dev-master": "1.0.0"
         }
-    },
-    "preferred-install": "dev"
+    }
 }
