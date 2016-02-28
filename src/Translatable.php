@@ -282,19 +282,4 @@ trait Translatable
         return parent::save($options);
     }
 
-    /**
-     * Fire the given event for the model.
-     *
-     * @param  string  $event
-     * @param  bool  $halt
-     * @return mixed
-     */
-    /*protected function fireModelEvent($event, $halt = true)
-    {
-        if ($event == 'saving') app('events')->fire('translation.source.saving', [&$model]);
-        if ($event == 'creating') app('events')->fire('translation.source.creating', [&$model]);
-        if ($event == 'deleted') app('events')->fire('translation.source.deleted', [$model]);
-
-        return parent::fireModelEvent($event, $halt);
-    }*/
 }
