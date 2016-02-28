@@ -25,6 +25,9 @@
             "Components\\Translatable\\": "src"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0-stable"
+        }
+    }
 }
