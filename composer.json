@@ -1,5 +1,6 @@
 {
     "name": "overlord/translatable",
+    "version": "1.0.0",
     "description": "...",
     "keywords": [
         "translation",
@@ -26,10 +27,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0"
+            "dev-master": "1.0-dev"
         }
     },
-
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "stable"
 }
