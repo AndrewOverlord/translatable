@@ -24,5 +24,8 @@
         "psr-4": {
             "Components\\Translatable\\": "src"
         }
-    }
+    },
+    "config": {
+		"preferred-install": "dist"
+	}
 }
